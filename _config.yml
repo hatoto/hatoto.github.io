@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Apprentice
-brief-intro: Learning Note
+title: 馬堤寫碼
+brief-intro: Keep Learning 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hatoto.github.io" # the base hostname & protocol for your site
 
