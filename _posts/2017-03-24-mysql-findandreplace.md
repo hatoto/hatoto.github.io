@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MySQL - Procedre - 替換Column內容"
+title:  "MySQL - Procedure - 替換Column內容"
 date:   2017-03-24
 categories: SQL
 tags: MySQL
