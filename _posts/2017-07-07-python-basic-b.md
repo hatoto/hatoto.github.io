@@ -131,6 +131,29 @@ pprint(diction)
 # 'c': [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]}
 ```
 
+#### 用dictionary內容印成json字串
+
+```python
+classroom = {"students":[{"firstName": "Stupid", "lastName": "Apple"},
+                {"firstName": "Strong", "lastName": "Bee"},
+                {"firstName": "Sweet", "lastName": "Cake"}],
+"teachers":[{"firstName": "Knock", "lastName": "Door"},
+          {"firstName": "Out", "lastName": "Door"}]}
+
+import json
+from io import StringIO
+
+io = StringIO()
+json.dump(classroom, io)
+
+print('classroomInJson: ', io.getvalue())
+
+#classroomInJson {"students": [{"firstName": "Stupid", "lastName": "Apple"}, {"firstName": "Strong", "lastName": "Bee"}, {"firstName": "Sweet", "lastName": "Cake"}], "teachers": [{"firstName": "Knock", "lastName": "Door"}, {"firstName": "Out", "lastName": "Door"}]}
+
+```
+
+
+
 #### 其他-印出 a-z
 ```python
 

@@ -88,6 +88,20 @@ print(alist)
 #['3', 1, 3, '1', 2]
 ```
 
+#### 遍歷list時取得每個元素的index
+
+```python
+theList = ['a', 'b', 'c']
+for index, item in enumerate(theList):
+    print("Item %s has index %s" % (item, index))
+
+#Item a has index 0
+#Item b has index 1
+#Item c has index 2
+```
+
+在進行迴圈時把list轉成enumerate，然後就可以取到index和元素本身
+
 
 ## range
 
