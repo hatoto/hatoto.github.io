@@ -16,7 +16,7 @@ tags: javascript vue
 ### 遊戲畫面
 
 
-![card_match_2019-07-23 16.43.24.JPG]({{ site.url }}/assets/images/card_match_2019-07-23 16.43.24.JPG)
+![card_match_2019-07-23 16.43.24.jpg]({{ site.url }}/assets/images/card_match_2019-07-23 16.43.24.jpg)
 
 ### 遊戲功能
 
