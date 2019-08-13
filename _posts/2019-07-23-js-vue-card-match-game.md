@@ -49,6 +49,8 @@ tags: javascript vue
 
 
 
+Game Site：[Card Match Game](https://modontoys.web.app/)
 
+Code：[mini-apps-with-vue](https://github.com/hatoto/mini-apps-with-vue)
 
 gist：[card-match-game-vue](https://gist.github.com/hatoto/c1d49fcb20a75b8e3e461e3c893c78d9)
